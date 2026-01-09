@@ -69,8 +69,8 @@ export default function Home() {
             <ContactButton 
               href="https://reframe-gamma.vercel.app/"
               icon={<Globe className="w-5 h-5" />}
-              label="RE:FRAME · AI 교육 커리큘럼 & 영상제작 프로세스"
-              subLabel="Official Website"
+              label="RE:FRAME Website"
+              subLabel="AI 교육 커리큘럼 & 영상제작 프로세스"
               delay={0.5}
             />
 
