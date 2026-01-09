@@ -25,7 +25,7 @@ export default function Home() {
         <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-slate-50 to-transparent opacity-50 pointer-events-none" />
 
         <div className="relative px-6 py-12 flex flex-col items-center text-center">
-          
+
           {/* Profile Image with Ring */}
           <motion.div 
             initial={{ scale: 0.9, opacity: 0 }}
@@ -53,17 +53,25 @@ export default function Home() {
             >
               박선례
             </motion.h1>
+
             <motion.p 
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="text-slate-500 font-medium tracking-wide text-sm uppercase"
+              className="text-slate-500 font-medium tracking-wide text-sm uppercase leading-relaxed"
             >
-              RE:FRAME<br />
+              <span className="font-bold text-slate-900">RE:FRAME</span><br />
               AI 활용 교육 기획·강연 & 영상 기획·촬영·제작
+              <br /><br />
+              <a 
+                href="tel:010-3026-8612" 
+                className="text-slate-900 font-bold hover:underline transition-all"
+              >
+                📞 010-3026-8612
+              </a>
             </motion.p>
           </div>
-
+          
           {/* Action Buttons */}
           <div className="w-full space-y-3">
             <ContactButton 
