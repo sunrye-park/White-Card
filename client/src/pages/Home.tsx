@@ -60,7 +60,7 @@ export default function Home() {
               className="text-slate-500 font-medium tracking-wide text-sm uppercase"
             >
               RE:FRAME<br />
-              AI 활용 교육 · 영상 기획 및 제작
+              AI 활용 교육 기획·강연 & 영상 기획·촬영·제작
             </motion.p>
           </div>
 
