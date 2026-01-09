@@ -34,7 +34,7 @@ export default function Home() {
             className="relative mb-8 group"
           >
             <div className="absolute inset-0 rounded-full bg-slate-100 blur-xl opacity-50 group-hover:opacity-75 transition-opacity" />
-            <div className="relative h-32 w-32 rounded-full p-1 bg-white shadow-lg ring-1 ring-slate-100">
+            <div className="relative h-40 w-40 rounded-full p-1 bg-white shadow-lg ring-1 ring-slate-100">
               <img 
                 src={profileImage} 
                 alt="Park Sun-rye" 
@@ -59,7 +59,7 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="text-slate-500 font-medium tracking-wide text-sm uppercase"
             >
-              AI 활용 교육 기획·강연 & 영상 제작 (기획, 촬영, 종편))
+              AI 활용 교육 기획·강연 & 영상 제작 전반
             </motion.p>
           </div>
 
