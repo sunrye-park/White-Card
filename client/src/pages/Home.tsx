@@ -34,7 +34,7 @@ export default function Home() {
             className="relative mb-8 group"
           >
             <div className="absolute inset-0 rounded-full bg-slate-100 blur-xl opacity-50 group-hover:opacity-75 transition-opacity" />
-            <div className="relative h-40 w-40 rounded-full p-1 bg-white shadow-lg ring-1 ring-slate-100">
+            <div className="relative h-48 w-48 rounded-full p-1 bg-white shadow-lg ring-1 ring-slate-100">
               <img 
                 src={profileImage} 
                 alt="Park Sun-rye" 
@@ -59,7 +59,8 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="text-slate-500 font-medium tracking-wide text-sm uppercase"
             >
-              AI 활용 교육 기획·강연 & 영상 제작 전반
+              RE:FRAME<br />
+              AI 활용 교육 · 영상 기획 및 제작
             </motion.p>
           </div>
 
@@ -68,8 +69,8 @@ export default function Home() {
             <ContactButton 
               href="https://reframe-gamma.vercel.app/"
               icon={<Globe className="w-5 h-5" />}
-              label="Re:frame Homepage"
-              subLabel="AI 교육 커리큘럼 & 영상제작 프로세스"
+              label="RE:FRAME · AI 교육 커리큘럼 & 영상제작 프로세스"
+              subLabel="Official Website"
               delay={0.5}
             />
 
