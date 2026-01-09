@@ -37,7 +37,7 @@ export default function Home() {
             <div className="relative h-32 w-32 rounded-full p-1 bg-white shadow-lg ring-1 ring-slate-100">
               <img 
                 src={profileImage} 
-                alt="Park Seon-rye" 
+                alt="Park Sun-rye" 
                 className="w-full h-full object-cover rounded-full"
               />
             </div>
@@ -59,18 +59,26 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="text-slate-500 font-medium tracking-wide text-sm uppercase"
             >
-              Re:frame
+              AI 활용 교육 기획·강연 & 영상 제작 (기획, 촬영, 종편))
             </motion.p>
           </div>
 
           {/* Action Buttons */}
           <div className="w-full space-y-3">
             <ContactButton 
-              href="mailto:pianossun@naver.com"
-              icon={<Mail className="w-5 h-5" />}
-              label="Email"
-              subLabel="pianossun@naver.com"
+              href="https://reframe-gamma.vercel.app/"
+              icon={<Globe className="w-5 h-5" />}
+              label="Re:frame Homepage"
+              subLabel="AI 교육 커리큘럼 & 영상제작 프로세스"
               delay={0.5}
+            />
+
+            <ContactButton 
+              href="https://blog.naver.com/frameview-"
+              icon={<Globe className="w-5 h-5" />}
+              label="blog"
+              subLabel="4060 AI 활용 강사"
+              delay={0.6}
             />
             
             <ContactButton 
@@ -78,15 +86,15 @@ export default function Home() {
               icon={<Instagram className="w-5 h-5" />}
               label="Instagram"
               subLabel="@slowsoyang"
-              delay={0.6}
-            />
-            
-            <ContactButton 
-              href="https://reframe-gamma.vercel.app/"
-              icon={<Globe className="w-5 h-5" />}
-              label="Website"
-              subLabel="Re:frame Homepage"
               delay={0.7}
+            />
+
+            <ContactButton 
+              href="mailto:pianossun@naver.com"
+              icon={<Mail className="w-5 h-5" />}
+              label="Email"
+              subLabel="pianossun@naver.com"
+              delay={0.8}
             />
           </div>
 
