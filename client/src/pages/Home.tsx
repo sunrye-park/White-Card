@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Mail, Instagram, Globe } from "lucide-react";
+import { SiNaver, SiThreads } from "react-icons/si";
 import { ContactButton } from "@/components/ContactButton";
 import { useTrackVisitor } from "@/hooks/use-visitors";
 import profileImage from "@assets/7818C4F2-C031-44FD-85CB-395D09758E48_1767881406884.png";
@@ -76,7 +77,7 @@ export default function Home() {
           <div className="w-full space-y-3">
             <ContactButton 
               href="https://reframe-gamma.vercel.app/"
-              icon={<Globe className="w-5 h-5" />}
+              icon={<div className="font-black text-lg tracking-tighter">Re:</div>}
               label="RE:FRAME Website"
               subLabel="AI 교육 커리큘럼 & 영상제작 프로세스"
               delay={0.5}
@@ -84,7 +85,7 @@ export default function Home() {
 
             <ContactButton 
               href="https://blog.naver.com/frameview-"
-              icon={<Globe className="w-5 h-5" />}
+              icon={<SiNaver className="w-4 h-4" />}
               label="blog"
               subLabel="4060 AI 활용 강사"
               delay={0.6}
@@ -92,7 +93,7 @@ export default function Home() {
 
             <ContactButton 
               href="https://www.threads.com/@slowsoyang?igshid=NTc4MTIwNjQ2YQ=="
-              icon={<Instagram className="w-5 h-5" />}
+              icon={<SiThreads className="w-5 h-5" />}
               label="AI 공부는 스레드"
               subLabel="@slowsoyang"
               delay={0.65}
