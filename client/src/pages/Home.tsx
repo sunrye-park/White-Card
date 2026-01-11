@@ -89,6 +89,14 @@ export default function Home() {
               subLabel="4060 AI 활용 강사"
               delay={0.6}
             />
+
+            <ContactButton 
+              href="https://www.threads.com/@slowsoyang?igshid=NTc4MTIwNjQ2YQ=="
+              icon={<Instagram className="w-5 h-5" />}
+              label="AI 공부는 스레드"
+              subLabel="@slowsoyang"
+              delay={0.65}
+            />
             
             <ContactButton 
               href="https://www.instagram.com/slowsoyang?igsh=cTNkYWxybHhxb2Rq&utm_source=qr"
