@@ -77,42 +77,47 @@ export default function Home() {
           <div className="w-full space-y-3">
             <ContactButton 
               href="https://reframe-gamma.vercel.app/"
-              icon={<div className="font-black text-lg tracking-tighter">Re:</div>}
+              icon={<div className="font-black text-lg tracking-tighter text-blue-600">Re:</div>}
               label="RE:FRAME Website"
               subLabel="AI 교육 커리큘럼 & 영상제작 프로세스"
               delay={0.5}
+              iconBgColor="bg-blue-50"
             />
 
             <ContactButton 
               href="https://blog.naver.com/frameview-"
-              icon={<SiNaver className="w-4 h-4" />}
+              icon={<SiNaver className="w-4 h-4 text-emerald-600" />}
               label="blog"
               subLabel="4060 AI 활용 강사"
               delay={0.6}
+              iconBgColor="bg-emerald-50"
             />
 
             <ContactButton 
               href="https://www.threads.com/@slowsoyang?igshid=NTc4MTIwNjQ2YQ=="
-              icon={<SiThreads className="w-5 h-5" />}
+              icon={<SiThreads className="w-5 h-5 text-slate-800" />}
               label="AI 공부는 스레드"
               subLabel="@slowsoyang"
               delay={0.65}
+              iconBgColor="bg-slate-100"
             />
-            
+
             <ContactButton 
               href="https://www.instagram.com/slowsoyang?igsh=cTNkYWxybHhxb2Rq&utm_source=qr"
-              icon={<Instagram className="w-5 h-5" />}
+              icon={<Instagram className="w-5 h-5 text-rose-500" />}
               label="Instagram"
               subLabel="@slowsoyang"
               delay={0.7}
+              iconBgColor="bg-rose-50"
             />
 
             <ContactButton 
               href="mailto:pianossun@naver.com"
-              icon={<Mail className="w-5 h-5" />}
+              icon={<Mail className="w-5 h-5 text-amber-500" />}
               label="Email"
               subLabel="pianossun@naver.com"
               delay={0.8}
+              iconBgColor="bg-amber-50"
             />
           </div>
 

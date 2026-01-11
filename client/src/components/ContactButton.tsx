@@ -8,6 +8,7 @@ interface ContactButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
   subLabel?: string;
   href: string;
   delay?: number;
+  iconBgColor?: string;
 }
 
 export function ContactButton({ 
@@ -17,6 +18,7 @@ export function ContactButton({
   href, 
   className, 
   delay = 0,
+  iconBgColor = "bg-slate-50",
   ...props 
 }: ContactButtonProps) {
   return (
@@ -35,7 +37,11 @@ export function ContactButton({
         className
       )}
     >
-      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-slate-50 text-slate-600 group-hover:bg-slate-100 group-hover:text-slate-900 transition-colors">
+      <div className={cn(
+        "flex h-10 w-10 shrink-0 items-center justify-center rounded-full transition-colors",
+        iconBgColor,
+        "group-hover:opacity-80"
+      )}>
         {icon}
       </div>
       
