@@ -87,20 +87,11 @@ export default function Home() {
             />
 
             <ContactButton 
-              href="https://blog.naver.com/frameview-"
-              icon={<SiNaver className="w-4 h-4 text-emerald-600" />}
-              label="blog"
-              subLabel="4060 AI 활용 강사"
-              delay={0.6}
-              iconBgColor="bg-emerald-50"
-            />
-
-            <ContactButton 
               href="https://www.threads.com/@slowsoyang?igshid=NTc4MTIwNjQ2YQ=="
               icon={<SiThreads className="w-5 h-5 text-slate-800" />}
               label="AI 학습은 스레드"
               subLabel="@slowsoyang"
-              delay={0.65}
+              delay={0.6}
               iconBgColor="bg-slate-100"
             />
 
@@ -109,8 +100,17 @@ export default function Home() {
               icon={<Instagram className="w-5 h-5 text-rose-500" />}
               label="Instagram"
               subLabel="@slowsoyang"
-              delay={0.7}
+              delay={0.65}
               iconBgColor="bg-rose-50"
+            />
+
+            <ContactButton 
+              href="https://blog.naver.com/frameview-"
+              icon={<SiNaver className="w-4 h-4 text-emerald-600" />}
+              label="blog"
+              subLabel="4060 AI 활용 강사"
+              delay={0.7}
+              iconBgColor="bg-emerald-50"
             />
 
             <ContactButton 
