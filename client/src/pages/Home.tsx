@@ -98,7 +98,7 @@ export default function Home() {
             <ContactButton 
               href="https://www.threads.com/@slowsoyang?igshid=NTc4MTIwNjQ2YQ=="
               icon={<SiThreads className="w-5 h-5 text-slate-800" />}
-              label="AI 공부는 스레드"
+              label="AI 학습은 스레드"
               subLabel="@slowsoyang"
               delay={0.65}
               iconBgColor="bg-slate-100"
