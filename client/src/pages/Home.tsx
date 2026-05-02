@@ -81,7 +81,7 @@ export default function Home() {
               href="https://blog.naver.com/frameview-"
               icon={<SiNaver className="w-4 h-4 text-emerald-600" />}
               label="친절한 AI활용 Blog"
-              subLabel="4060 AI 활용 강사"
+              subLabel="AI 리터러시 전문 강사"
               delay={0.6}
               iconBgColor="bg-emerald-50"
             />
