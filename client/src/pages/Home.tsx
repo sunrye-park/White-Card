@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import { Mail, Instagram, Phone } from "lucide-react";
+import { Mail, Instagram } from "lucide-react";
 import { SiNaver, SiThreads } from "react-icons/si";
 import { ContactButton } from "@/components/ContactButton";
 import { useTrackVisitor } from "@/hooks/use-visitors";
@@ -68,15 +68,6 @@ export default function Home() {
           
           {/* Action Buttons */}
           <div className="w-full space-y-3">
-            <ContactButton 
-              href="tel:010-3026-8612"
-              icon={<Phone className="w-5 h-5 text-indigo-600" />}
-              label="전화하기"
-              subLabel="상담 및 강연 의뢰"
-              delay={0.45}
-              iconBgColor="bg-indigo-50"
-            />
-
             <ContactButton 
               href="https://reframe-gamma.vercel.app/"
               icon={<div className="font-black text-lg tracking-tighter text-blue-600">Re:</div>}
