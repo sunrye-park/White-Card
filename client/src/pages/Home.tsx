@@ -69,10 +69,10 @@ export default function Home() {
           {/* Action Buttons */}
           <div className="w-full space-y-3">
             <ContactButton 
-              href="https://reframe-gamma.vercel.app/"
+              href="https://eframe-ai.github.io"
               icon={<div className="font-black text-lg tracking-tighter text-blue-600">Re:</div>}
-              label="RE:FRAME Website"
-              subLabel="AI 교육 커리큘럼 & 영상제작 프로세스"
+              label="Re:Frame"
+              subLabel="AI 교육 커리큘럼"
               delay={0.5}
               iconBgColor="bg-blue-50"
             />
