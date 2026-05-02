@@ -87,21 +87,21 @@ export default function Home() {
             />
 
             <ContactButton 
-              href="https://www.instagram.com/slowsoyang?igsh=cTNkYWxybHhxb2Rq&utm_source=qr"
-              icon={<Instagram className="w-5 h-5 text-rose-500" />}
-              label="Instagram"
-              subLabel="@slowsoyang"
-              delay={0.65}
-              iconBgColor="bg-rose-50"
-            />
-
-            <ContactButton 
               href="https://blog.naver.com/frameview-"
               icon={<SiNaver className="w-4 h-4 text-emerald-600" />}
               label="blog"
               subLabel="4060 AI 활용 강사"
-              delay={0.7}
+              delay={0.65}
               iconBgColor="bg-emerald-50"
+            />
+
+            <ContactButton 
+              href="https://www.instagram.com/slowsoyang?igsh=cTNkYWxybHhxb2Rq&utm_source=qr"
+              icon={<Instagram className="w-5 h-5 text-rose-500" />}
+              label="Instagram"
+              subLabel="@slowsoyang"
+              delay={0.7}
+              iconBgColor="bg-rose-50"
             />
 
             <ContactButton 
