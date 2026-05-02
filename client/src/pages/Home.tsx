@@ -62,7 +62,7 @@ export default function Home() {
               className="text-slate-500 font-medium tracking-wide text-sm uppercase leading-relaxed"
             >
               <span className="font-bold text-slate-900">RE:FRAME</span><br />
-              AI 활용 교육 기획·강연 & 영상 기획·촬영·제작
+              AI 활용 교육 기획·강연
             </motion.p>
           </div>
           
