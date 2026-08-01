@@ -68,8 +68,8 @@ export default function Home() {
           
           {/* Action Buttons */}
           <div className="w-full space-y-3">
-            <ContactButton 
-              href="https://eframe-ai.github.io"
+            <ContactButton
+              href="https://reframe-ai.github.io/?utm_source=threads&utm_medium=social&utm_content=link_in_bio"
               icon={<div className="font-black text-lg tracking-tighter text-blue-600">Re:</div>}
               label="Re:Frame"
               subLabel="AI 교육 커리큘럼"
